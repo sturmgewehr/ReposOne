@@ -24,6 +24,7 @@ namespace TestProjectWPF
         {
             user = new UserViewModel();
             InitializeComponent();
+            this.DataContext = user;
         }
     }
 }
