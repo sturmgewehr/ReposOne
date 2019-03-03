@@ -26,5 +26,10 @@ namespace TestProjectWPF
             InitializeComponent();
             this.DataContext = user;
         }
+
+        private void Btn_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show($"Login:{user.Login}\nPassword:{user.Password}\nConfirm password:{user.ConfirmPassword}\nPhone number:{user.Phone}");
+        }
     }
 }
