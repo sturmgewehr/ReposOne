@@ -31,10 +31,5 @@ namespace TestProjectWPF
         {
             MessageBox.Show($"Login:{user.Login}\nPassword:{user.Password}\nConfirm password:{user.ConfirmPassword}\nPhone number:{user.Phone}");
         }
-
-        private void Btn_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }
