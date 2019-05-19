@@ -25,7 +25,7 @@ namespace TestProjectWPF
             user = new UserViewModel();
             InitializeComponent();
             this.DataContext = user;
-            int a = 20;
+            MessageBox.Show(":3");
         }
 
         private void Btn_Click(object sender, RoutedEventArgs e)

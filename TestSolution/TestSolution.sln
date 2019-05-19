@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectWPF", "TestProje
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWcfServiceLibrary", "TestWcfServiceLibrary\TestWcfServiceLibrary.csproj", "{2FA4BFE5-EBA4-4705-B987-E39437ABEBEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{2CF0936E-FF7E-4242-8A99-50BC87D5FB0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2FA4BFE5-EBA4-4705-B987-E39437ABEBEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FA4BFE5-EBA4-4705-B987-E39437ABEBEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FA4BFE5-EBA4-4705-B987-E39437ABEBEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF0936E-FF7E-4242-8A99-50BC87D5FB0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF0936E-FF7E-4242-8A99-50BC87D5FB0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF0936E-FF7E-4242-8A99-50BC87D5FB0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF0936E-FF7E-4242-8A99-50BC87D5FB0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
